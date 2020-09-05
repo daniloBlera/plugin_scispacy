@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Implementation of the ScispaCy plugin for DeepNLPF
+Implementation of the scispaCy plugin for DeepNLPF
 
 This file is a modified version from the spaCy plugin.
 """

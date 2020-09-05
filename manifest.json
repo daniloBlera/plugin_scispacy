@@ -1,0 +1,49 @@
+{
+    "manifest_version": "1.0.0",
+    "name": "scispaCy",
+    "version": "0.2.5",
+    "keyname": "scispacy",
+    "description": "scispaCy is a Python package containing spaCy models for processing biomedical, scientific or clinical text.",
+    "site": "https://allenai.github.io/scispacy/",
+    "author": "Danilo Blera",
+    "category": "pln",
+    "license": "MIT",
+    "analysis": [{
+        "lexical": [{
+                "name": "POS",
+                "keyname": "pos",
+                "description": "The simple part-of-speech tag."
+            },
+            {
+                "name": "Tag",
+                "keyname": "tag",
+                "description": "The detailed part-of-speech tag."
+            },
+            {
+                "name": "Shape",
+                "keyname": "shape",
+                "description": "The word shape – capitalization, punctuation, digits."
+            },
+            {
+                "name": "Is Alpha",
+                "keyname": "is_alpha",
+                "description": "Is the token an alpha character?"
+            },
+            {
+                "name": "Is Title",
+                "keyname": "is_title",
+                "description": "Is the token in titlecase?"
+            },
+            {
+                "name": "Like Num",
+                "keyname": "like_num",
+                "description": "Does the token represent a number? e.g. “10.9”, “10”, “ten”, etc."
+            },
+            {
+                "name": "Noun Chunks",
+                "keyname": "noun_chunks",
+                "description": ""
+            }
+        ]
+    }]
+}
