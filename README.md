@@ -20,7 +20,9 @@ To install the small biomedical model `en_core_sci_sm`, do:
 pip install 'https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.5/en_core_sci_sm-0.2.5.tar.gz'
 ```
 
-The other available biomedical models can be found here: [https://allenai.github.io/scispacy/][scispacy]
+The other available biomedical models can be found here:
+
+[https://allenai.github.io/scispacy/][scispacy]
 
 [scispacy]: https://allenai.github.io/scispacy/
 [deepnlpf]: https://github.com/deepnlpf/deepnlpf
